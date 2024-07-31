@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+
+  servicea:
+    build:
+      context: ./ServiceA/
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
